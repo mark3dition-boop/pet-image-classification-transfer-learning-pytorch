@@ -1,0 +1,6 @@
+converged_epoch,total_time_sec,val_acc,test_acc,test_f1_macro,code,condition,trainable_params,lr
+10,209.6,0.4564,0.3867,0.3434,B1,Baseline From Scratch,11181642,1e-3
+20,130.28,0.9195,0.98,0.98,B2,Feature Extraction,5130,1e-3 (fc)
+6,78.44,0.9128,0.9533,0.9531,B3,Progressive Fine-Tuning,8398858,"1e-4 (l4), 1e-3 (fc)"
+6,75.0,0.906,0.94,0.9396,B4,Fine-Tuning (Tanpa Augmentasi),8398858,"1e-4 (l4), 1e-3 (fc)"
+11,168.43,0.9128,0.9733,0.9731,B5,EfficientNet-B0 Fine-Tuning,730042,"1e-4 (f7), 1e-3 (cls)"

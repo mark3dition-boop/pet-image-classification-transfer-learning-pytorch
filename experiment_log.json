@@ -1,0 +1,57 @@
+[
+    {
+        "converged_epoch": 10,
+        "total_time_sec": 209.6,
+        "val_acc": 0.4564,
+        "test_acc": 0.3867,
+        "test_f1_macro": 0.3434,
+        "code": "B1",
+        "condition": "Baseline From Scratch",
+        "trainable_params": 11181642,
+        "lr": "1e-3"
+    },
+    {
+        "converged_epoch": 20,
+        "total_time_sec": 130.28,
+        "val_acc": 0.9195,
+        "test_acc": 0.98,
+        "test_f1_macro": 0.98,
+        "code": "B2",
+        "condition": "Feature Extraction",
+        "trainable_params": 5130,
+        "lr": "1e-3 (fc)"
+    },
+    {
+        "converged_epoch": 6,
+        "total_time_sec": 78.44,
+        "val_acc": 0.9128,
+        "test_acc": 0.9533,
+        "test_f1_macro": 0.9531,
+        "code": "B3",
+        "condition": "Progressive Fine-Tuning",
+        "trainable_params": 8398858,
+        "lr": "1e-4 (l4), 1e-3 (fc)"
+    },
+    {
+        "converged_epoch": 6,
+        "total_time_sec": 75.0,
+        "val_acc": 0.906,
+        "test_acc": 0.94,
+        "test_f1_macro": 0.9396,
+        "code": "B4",
+        "condition": "Fine-Tuning (Tanpa Augmentasi)",
+        "trainable_params": 8398858,
+        "lr": "1e-4 (l4), 1e-3 (fc)"
+    },
+    {
+        "converged_epoch": 11,
+        "total_time_sec": 168.43,
+        "val_acc": 0.9128,
+        "test_acc": 0.9733,
+        "test_f1_macro": 0.9731,
+        "code": "B5",
+        "condition": "EfficientNet-B0 Fine-Tuning",
+        "trainable_params": 730042,
+        "lr": "1e-4 (f7), 1e-3 (cls)"
+    }
+]
